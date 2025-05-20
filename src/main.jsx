@@ -7,10 +7,10 @@ import ShopProvider from './Context/ShopContex.jsx'
 
 createRoot(document.getElementById('root')).render(
   
-  <HashRouter>
+  <BrowserRouter>
       <ShopProvider>
             <App />
       </ShopProvider>
-  </HashRouter>
+  </BrowserRouter>
   ,
 )
